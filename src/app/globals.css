@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "NexaRound";
+  src: url("/fonts/NexaRound/subset-NexaRound-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NexaRound";
+  src: url("/fonts/NexaRound/subset-NexaRound-Heavy.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NexaRound";
+  src: url("/fonts/NexaRound/subset-NexaRound-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NexaRound";
+  src: url("/fonts/NexaRound/subset-NexaRound-Black.woff2") format("woff2");
+  font-weight: 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NexaRound";
+  src: url("/fonts/NexaRound/subset-NexaRound-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NexaRound";
+  src: url("/fonts/NexaRound/subset-NexaRound-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NexaRound";
+  src: url("/fonts/NexaRound/subset-NexaRound-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NexaRound";
+  src: url("/fonts/NexaRound/subset-NexaRound-Book.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NexaRound";
+  src: url("/fonts/NexaRound/subset-NexaRound-Regular.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* For NexaRound-Glow and NexaRound-Ultra, if you want to use them as normal weights, you can map them to custom numbers, or use font-weight: normal if they're display styles: */
+@font-face {
+  font-family: "NexaRound";
+  src: url("/fonts/NexaRound/subset-NexaRound-Glow.woff2") format("woff2");
+  font-weight: 1100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NexaRound";
+  src: url("/fonts/NexaRound/subset-NexaRound-Ultra.woff2") format("woff2");
+  font-weight: 1200;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
