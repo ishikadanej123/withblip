@@ -3,7 +3,7 @@ import { useEffect, useRef, useState, useCallback } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import styles from "./Landing.module.css";
 
-import Intercom from "@intercom/messenger-js-sdk";
+// import Intercom from "@intercom/messenger-js-sdk";
 import Image from "next/image";
 import { faqs, features } from "../../imports/constants/data";
 
@@ -72,13 +72,13 @@ export default function LandingPage() {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      Intercom({ app_id: "zcgmjurf" });
-    }, 5000);
+  // useEffect(() => {
+  //   const timeout = setTimeout(() => {
+  //     Intercom({ app_id: "zcgmjurf" });
+  //   }, 5000);
 
-    return () => clearTimeout(timeout);
-  }, []);
+  //   return () => clearTimeout(timeout);
+  // }, []);
 
   useEffect(() => {
     const setVh = () => {
