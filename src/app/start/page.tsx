@@ -1,4 +1,4 @@
-import StartPage from "../../../imports/StartPage/page/StartPage";
+import StartPage from "../../components/start/ui/page/StartPage";
 
 export default function LandingPage() {
   return (
