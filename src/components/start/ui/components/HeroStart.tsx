@@ -16,7 +16,6 @@ const HeroStart = () => {
   const meta = "/images/landing/metanew.webp";
   const video = "/images/landing/Screenshot.webp";
   const plus = "/images/landing/pauseCtaFrame.svg";
-  const rose = "/images/landing/rose.svg";
   const sampleVideo = "/video/Demo.mp4";
 
   const handlePlay = () => {
@@ -63,7 +62,7 @@ const HeroStart = () => {
               className={styles.herorocket}
               style={{
                 transformOrigin: "center center !important",
-                verticalAlign: "top", // Add this line// More explicit
+                verticalAlign: "top",
               }}
               initial={{
                 y: 50,

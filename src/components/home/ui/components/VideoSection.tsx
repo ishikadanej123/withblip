@@ -25,7 +25,7 @@ const VideoSection = () => {
       <div className={styles.videoSectionHeader}>
         <img src={light} alt="Lightning" className={styles.videoSectionIcon} />
         <div className={styles.videoSectionHeading}>
-          Ad Account Set up faster than Facebook changes its algorithm
+          Ad Account set up faster than Facebook changes its algorithm
         </div>
         <div className={styles.videoSectionPara}>
           Watch a quick demo of how easy it is to configure all your existing

@@ -112,11 +112,9 @@ const HeroSection = () => {
           <a href="https://app.withblip.com" className={styles.button}>
             Sign Up
           </a>
-          {/* <div className={styles.button1}>View Demo</div>
-           */}
-          <a href="https://app.withblip.com" className={styles.button1}>
-            Log In
-          </a>
+        </div>
+        <div className={styles.buttonLabel}>
+          NO CC Required. Free For 7 Days.
         </div>
         <div className={styles.metacontainer}>
           <Image
@@ -275,8 +273,11 @@ const HeroSection = () => {
         </div>
         <div className={styles.buttonScontainer}>
           <a href="https://app.withblip.com" className={styles.buttoncontainer}>
-            <div className={styles.button1Start}>Log In</div>
+            <div className={styles.button1Start}>Start Free Trial</div>
           </a>
+          <div className={styles.buttonLabelMobile}>
+            NO CC Required. Free For 7 Days.
+          </div>
           <div className={styles.metacontainerStart}>
             <Image
               src={meta}
