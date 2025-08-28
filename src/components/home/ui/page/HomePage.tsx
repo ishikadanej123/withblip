@@ -12,7 +12,6 @@ import FaqSection from "../components/FaqSection";
 import Footer from "../../../footer/Footer";
 import styles from "/src/app/Landing.module.css";
 import Intercom from "@intercom/messenger-js-sdk";
-import { BorderBeam } from "@/components/magicui/border-beam";
 
 // Intercom({
 //   app_id: "zcgmjurf",
